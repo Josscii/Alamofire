@@ -565,7 +565,7 @@ extension DownloadRequest {
                     }
                 }
             } onCancel: {
-                self.cancel()
+                self.cancel(producingResumeData: true)
             }
         }
 
